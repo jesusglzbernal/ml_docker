@@ -13,5 +13,5 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 COPY src/ ./src/
 COPY model/ ./model/
 
-ENTRYPOINT ["python3", "src/main.py"]
+ENTRYPOINT ["python3", "src/main2.py"]
 
