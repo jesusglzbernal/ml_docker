@@ -30,3 +30,8 @@ The directory structure of this repo:
     - Call the API using curl:
     - $ curl -v -F 'file=@test.csv' http://localhost:5000/predict
 
+
+## Additional docker commands
+$ sudo docker images
+$ sudo docker ps
+$ sudo docker rmi --force <image_id>
